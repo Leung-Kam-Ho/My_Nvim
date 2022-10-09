@@ -1,2 +1,2 @@
-hi PmenuSel cTermfg=0 ctermbg=15   
-hi Pmenu cTermfg=49
+highlight PmenuSel ctermfg=Magenta ctermbg=Yellow
+highlight Pmenu cTermfg=49

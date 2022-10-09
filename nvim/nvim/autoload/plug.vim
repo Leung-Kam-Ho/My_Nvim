@@ -2812,3 +2812,5 @@ let &cpo = s:cpo_save
 unlet s:cpo_save
 
 colorscheme cyberPunk
+"colorscheme tokyonight
+"colorscheme tokyonight-night

@@ -15,8 +15,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
 
     " IMPORTANT: :help Ncm2PopupOpen for more information
     set completeopt=noinsert,menuone,noselect
-
     " NOTE: you need to install completion sources to get completions. Check
+    Plug 'EdenEast/nightfox.nvim'
     " our wiki page for a list of sources: https://github.com/ncm2/ncm2/wiki
     Plug 'ncm2/ncm2-bufword'
     Plug 'ncm2/ncm2-path'
@@ -28,5 +28,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jiangmiao/auto-pairs'
     " Auto complete
     Plug 'nvim-lua/completion-nvim' 
+    Plug 'folke/tokyonight.nvim'
     Plug 'stevearc/vim-arduino'
+    Plug 'bluz71/vim-nightfly-guicolors'
     call plug#end()
+set termguicolors
+colorscheme nightfly
